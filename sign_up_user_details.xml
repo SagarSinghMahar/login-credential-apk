@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpUserDetailsActivity"
+    android:background="@color/red"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtUsernameDetials"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="name"
+        android:padding="7dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/txtEmailDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:text="email"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="7dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txtPhoneDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:text="phone"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="7dp"
+        />
+
+
+    <TextView
+        android:id="@+id/txtAddressDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:text="address"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="7dp"
+        />
+
+    <TextView
+        android:id="@+id/txtPasswordDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:text="password"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:padding="7dp"
+        />
+
+</LinearLayout>
